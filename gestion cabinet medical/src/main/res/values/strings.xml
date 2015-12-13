@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Doctor Assistant</string>
+
+   <string name="action_settings">Parametres</string>
+    <string name="welcomeText">Bienvenue</string>
+    <string name="string">New RadioButton</string>
+    <string name="BaddPatient">Ajouter Patient</string>
+    <string name="Beditpatient">Modifier Patient</string>
+    <string name="Bsearchpatient">Rechercher Patient</string>
+    <string name="Bappointments">Rendez-Vous</string>
+    <string name="Bbillinginfo">Facturation</string>
+    <string name="Bcontactus">Contact </string>
+    <string name="Bcontact">Contact </string>
+    <string name="contactus">Contact </string>
+    <string name="btnbilling">Info de la Facturation</string>
+</resources>

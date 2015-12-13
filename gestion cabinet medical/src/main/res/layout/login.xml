@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+   >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <!-- Login Form -->
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_alignParentBottom="true">
+            <!--  Username Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:layout_marginTop="50dp"
+                android:text="Nom d&apos;utilisateur"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:id="@+id/login_user"
+
+                android:singleLine="true"/>
+            <!--  Password Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:textStyle="bold"
+                android:text="Mot de Passe"
+                android:textSize="20dp" />
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+
+                android:id="@+id/login_password"
+                android:password="true"/>
+            <!-- Login button -->
+            <Button android:id="@+id/btnLogin"
+                android:layout_width="184dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textColor="#000000"
+
+                android:textStyle="bold"
+
+
+
+                android:text="Login"/>
+            <!-- Link to Registration Screen -->
+            <TextView android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dip"
+                android:layout_marginBottom="20dip"
+                android:text="Nouveau utilisateur? inscrivez vous ici."
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cabinet Medical"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp" />
+        <!-- Login Form Ends -->
+    </RelativeLayout>
+</ScrollView>
